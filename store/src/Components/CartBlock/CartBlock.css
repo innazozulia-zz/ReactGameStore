@@ -1,0 +1,18 @@
+.cart__block {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cart__block-icon {
+    color: red;
+    cursor: pointer;
+    position: relative;
+}
+
+.cart__block-price {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
+}
