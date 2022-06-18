@@ -1,6 +1,6 @@
 .game__item {
     text-decoration: none;
-    width: 310px;
+    width: 340px;
     height: 300px;
     /* background-color: grey; */
     border-radius: 15px;
@@ -13,7 +13,7 @@
 }
 
 .game__item:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 95px;
     margin-right: 50px;
 }
 
@@ -26,10 +26,11 @@
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #ccc;
-    width: 100%;
-    border-radius: 15px;
+    /* background-color: #ccc; */
+    /* width: 100%; */
+    /* border-radius: 15px; */
 }
+
 
 .game__item-ditails {
     padding: 10px 20px;
@@ -43,5 +44,6 @@
 .game__item-btn {
     position: absolute;
     right: 3px;
-    bottom: 2px;
+    /* bottom: 2px; */
+    bottom: -75px;
 }

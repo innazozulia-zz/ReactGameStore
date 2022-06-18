@@ -5,7 +5,7 @@
 }
 
 .cart__block-icon {
-    color: red;
+    color: green;
     cursor: pointer;
     position: relative;
 }
@@ -14,5 +14,5 @@
     margin-left: 15px;
     font-size: 18px;
     font-weight: 600;
-    color: red;
+    color: green;
 }

@@ -1,0 +1,12 @@
+.game__item-genre-name {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    background-color: #90baad;
+    border-radius: 15px;
+    padding: 2px 7px;
+}
+
+.game__item-genre-name:not(:last-child) {
+    margin-right: 5px;
+}

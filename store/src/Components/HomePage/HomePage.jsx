@@ -2,12 +2,13 @@ import React from "react";
 import "./styles.css";
 
 import GameItem from "../GameItem/GameItem";
+// import Add from "../Add/Add";
 
 const games = [
   {
     image: "img/Halo.jpeg",
     title: "Halo",
-    genres: "Shooter",
+    genres: ["Shooter"],
     video: "https://www.youtube.com/watch?v=Rh_NXwqFvHc",
     price: 42,
     id: 1,
@@ -17,7 +18,7 @@ const games = [
   {
     image: "img/Hellblade.jpeg",
     title: "Senua's Saga: Hellblade",
-    genres: "Action Adventure",
+    genres: ["Action Adventure", "RPG"],
     video: "https://www.youtube.com/watch?v=Rh_NXwqFvHc",
     price: 65,
     id: 2,
@@ -27,7 +28,7 @@ const games = [
   {
     image: "img/Dishonored.jpeg",
     title: "Dishonored",
-    genres: "Action Adventure",
+    genres: ["Action Adventure", "Shooter"],
     video: "https://www.youtube.com/watch?v=E1HlYTukh9A",
     price: 45,
     id: 3,
@@ -37,20 +38,40 @@ const games = [
   {
     image: "img/Minecraft.png",
     title: "Minecraft",
-    genres: "Sandbox",
+    genres: ["Sandbox", "Action Adventure"],
     video: "https://www.youtube.com/watch?v=MmB9b5njVbA",
     price: 48,
     id: 4,
     description:
       "Minecraft is a 3-D computer game where players can build anything. The game which has been described as like an 'online Lego' involves building blocks and creating structures across different environments and terrains. Set in a virtual world the game involves resource gathering, crafting items, building, and combat.",
   },
+  {
+    image: "img/Fallout_4.webp",
+    title: "Fallout 4",
+    genres: ["Action role-playing", "Action Adventure"],
+    video: "https://www.youtube.com/watch?v=XW7Of3g2JME",
+    price: 37,
+    id: 5,
+    description:
+      "The player assumes control of a character referred to as the 'Sole Survivor', who emerges from a long-term cryogenic stasis in Vault 111, an underground nuclear fallout shelter.",
+  },
+  {
+    image: "img/Cyberpunk-2077.jpeg",
+    title: "Cyberpunk 2077 ",
+    genres: ["Action Adventure ", "Shooter", "RPG"],
+    video: "https://www.youtube.com/watch?v=LembwKDo1Dk",
+    price: 68,
+    id: 6,
+    description:
+      "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
+  },
 ];
-
 console.log(games);
 
 function HomePage() {
   return (
     <div className="home__page">
+      {/* <Add /> */}
       {games.map((game) => (
         <GameItem game={game} key={game.id} />
       ))}
