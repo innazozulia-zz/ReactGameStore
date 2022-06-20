@@ -1,0 +1,11 @@
+.cart__wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__title {
+    font-size: 24px;
+    font-weight: 600;
+
+}

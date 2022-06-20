@@ -15,7 +15,7 @@
     text-align: center;
     justify-content: center;
     cursor: pointer;
-    color: green;
+    color: white;
 }
 
 .links:not(:last-child) {

@@ -2,9 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     /* width: 100%; */
-    background-color: #90baad;
+    background-color: #ebc2da;
     border-radius: 15px;
     padding: 2px 7px;
+    color: rgb(49, 47, 47);
 }
 
 .game__item-genre-name:not(:last-child) {

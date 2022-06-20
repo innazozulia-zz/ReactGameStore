@@ -1,0 +1,22 @@
+.cart__menu {
+    position: absolute;
+    top: 30px;
+    left: -300px;
+    background-color: #5b5d5b;
+    width: 400px;
+    padding: 6px 6px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.cart__menu-arrange {
+    /* margin-top: 20px; */
+    padding: 20px 10px;
+    border-top: 1px solid white;
+}
+
+.cart__menu-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
