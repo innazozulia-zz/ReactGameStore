@@ -9,7 +9,7 @@ const games = [
     image: "img/Halo.jpeg",
     title: "Halo",
     genres: ["Shooter"],
-    video: "https://www.youtube.com/watch?v=Rh_NXwqFvHc",
+    video: "https://www.youtube.com/embed?v=Rh_NXwqFvHc",
     price: 42,
     id: 1,
     description:
@@ -19,7 +19,7 @@ const games = [
     image: "img/Hellblade.jpeg",
     title: "Senua's Saga: Hellblade",
     genres: ["Action Adventure", "RPG"],
-    video: "https://www.youtube.com/watch?v=Rh_NXwqFvHc",
+    video: "https://www.youtube.com/embed/v=Rh_NXwqFvHc",
     price: 65,
     id: 2,
     description:
@@ -39,7 +39,7 @@ const games = [
     image: "img/Minecraft.png",
     title: "Minecraft",
     genres: ["Sandbox", "Action Adventure"],
-    video: "https://www.youtube.com/watch?v=MmB9b5njVbA",
+    video: "https://www.youtube.com/embed/v=MmB9b5njVbA",
     price: 48,
     id: 4,
     description:

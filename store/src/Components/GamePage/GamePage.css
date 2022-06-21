@@ -1,0 +1,25 @@
+.game__page {
+    display: flex;
+}
+
+.game__page-title {
+    padding: 30px;
+}
+
+.game__page-left {
+    width: 60%;
+}
+
+.game__page-right {
+    width: 30%;
+}
+
+.game__page-buy {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.game__page-makrs {
+    margin-bottom: 10px;
+}

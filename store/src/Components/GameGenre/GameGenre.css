@@ -10,4 +10,5 @@
 
 .game__item-genre-name:not(:last-child) {
     margin-right: 5px;
+    margin-bottom: 5px;
 }
