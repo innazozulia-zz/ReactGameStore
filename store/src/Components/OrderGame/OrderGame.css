@@ -1,0 +1,35 @@
+.order__items-title {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.order__item-price {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.order__cover {
+    width: 250px;
+    height: 215px;
+}
+
+.order__item {
+    margin: 0 15px;
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.order__item-delete {
+    padding: 10px;
+    cursor: pointer;
+}

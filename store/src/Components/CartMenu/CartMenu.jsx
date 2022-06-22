@@ -20,6 +20,7 @@ function CartMenu({ items, onClick }) {
             ))
           : "Your cart is empty"}
       </div>
+
       {items.length > 0 ? (
         <div className="cart__menu-arrange">
           <div className="cart__menu-total">

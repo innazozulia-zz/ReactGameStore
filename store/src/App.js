@@ -11,6 +11,7 @@ import Consoles from "./Components/Consoles/Consoles";
 import SingIn from "./Components/SingIn/SingIn";
 import GamePage from "./Components/GamePage/GamePage";
 import { store } from "./redux/store";
+import Order from "./Components/Order/Order";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="consoles" element={<Consoles />} />
           <Route path="Sing__in" element={<SingIn />} />
           <Route path="app/:title" element={<GamePage />} />
+          <Route path="order" element={<Order />} />
         </Routes>
       </div>
     </Provider>

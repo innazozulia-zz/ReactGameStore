@@ -27,12 +27,14 @@ function GamePage() {
       </div>
       <div className="game__page-right">
         <GameCover image={game.image} />
-        <p className="game__page-description">{game.description}</p>
-        <p className="game__page-makrs">
-          {game.genres.map((genre) => (
-            <GameGanre genre={genre} key={genre} />
-          ))}
-        </p>
+        <div>
+          <p className="game__page-description">{game.description}</p>
+          <p className="game__page-makrs">
+            {game.genres.map((genre) => (
+              <GameGanre genre={genre} key={genre} />
+            ))}
+          </p>
+        </div>
         <div className="game__page-buy">
           <GameBuy game={game} />
         </div>

@@ -1,0 +1,28 @@
+/* .order {
+    flex-direction: column;
+    display: flex;
+
+}
+
+.order__left {
+    justify-content: start;
+    width: 40%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order__right {
+    justify-content: flex-end;
+    align-self: flex-end;
+} */
+
+.order__total-price {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.total__price {
+    font-size: 24px;
+    font-weight: 600;
+}

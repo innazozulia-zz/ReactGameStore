@@ -15,14 +15,9 @@ function GameItem({ game }) {
   const dispatch = useDispatch();
   const genreItems = game.genres;
 
-  // const routes = [{ path: `/app/${game.title}` }];
-  const routes = [{ path: `/${game.title}` }];
-
   const handelClick = () => {
-    console.log(routes);
     dispatch(setCurrentGame(game));
     navigate(`/app/${game.title}`, { replace: true });
-    // navigate(`/${game.title}`, { replace: true });
   };
   return (
     <div className="game__item" onClick={handelClick}>
@@ -34,7 +29,6 @@ function GameItem({ game }) {
             <GameGanre genre={genre} key={genre} />
           ))}
         </div>
-        {/* <div className="game__item-description">{game.description}</div> */}
         <div className="game__item-btn">
           <GameBuy game={game} />
         </div>
