@@ -16,3 +16,10 @@
     font-weight: 600;
     color: white;
 }
+
+.cart__block-console {
+    color: white;
+    cursor: pointer;
+    position: relative;
+    margin-left: 10px;
+}

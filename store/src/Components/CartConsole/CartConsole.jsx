@@ -1,22 +1,22 @@
 import React from "react";
 
-import "./CartItem.css";
-
 import { useDispatch } from "react-redux";
-import { deleteItemFromCart } from "../../redux/slices/gameSlice";
+import { deleteConsoleFromCart } from "../../redux/slices/consolesSlice";
 
-function CartItem({ price, title, id }) {
+import "./CartConsole.css";
+
+function CartConsole({ price, title, id }) {
   const dispatch = useDispatch();
 
   const handleClick = () => {
-    dispatch(deleteItemFromCart(id));
+    dispatch(deleteConsoleFromCart(id));
   };
-
   return (
-    <div className="cart__wrapper">
-      <span className="cart__title">{title}</span>
+    <div className="console__wrapper">
+      <span className="cartconsole__title">{title}</span>
+
       <div className="close">
-        <span className="cart__price">{price} $</span>
+        <span className="cartconsole__price">{price} $</span>
         <svg
           onClick={handleClick}
           width="24px"
@@ -43,4 +43,4 @@ function CartItem({ price, title, id }) {
   );
 }
 
-export default CartItem;
+export default CartConsole;

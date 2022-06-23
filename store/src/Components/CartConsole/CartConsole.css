@@ -1,23 +1,29 @@
-.cart__wrapper {
+.console__wrapper {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    text-align: center;
     align-items: center;
+
 }
 
-.cart__title {
+.cartconsole__title {
     font-size: 24px;
     font-weight: 600;
 
 }
 
-.cart__price {
+.cartconsole__price {
     padding: 0 15px;
+    font-weight: 600;
 }
 
 .close {
     cursor: pointer;
     align-items: center;
     text-align: center;
+}
+
+.close svg {
+    width: 16px;
+    height: 16px;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./ConsoleCart.css";
 
 function ConsoleInCart({ quantity = 0 }) {
   return quantity > 0 ? (

@@ -18,6 +18,12 @@ function Opportunities() {
           <span>games</span>
         </div>
       </Link>
+      <Link to="consoles">
+        <div className="links consoles">
+          <SiXbox size={25} />
+          <span>consoles</span>
+        </div>
+      </Link>
       <Link to="game__pass">
         <div className="links game__pass">
           <FaTicketAlt size={25} />
@@ -25,12 +31,6 @@ function Opportunities() {
         </div>
       </Link>
 
-      <Link to="consoles">
-        <div className="links consoles">
-          <SiXbox size={25} />
-          <span>consoles</span>
-        </div>
-      </Link>
       <Link to="play_now">
         <div className="links play">
           <BsPlay size={25} />

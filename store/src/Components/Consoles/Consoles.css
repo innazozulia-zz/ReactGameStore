@@ -1,7 +1,3 @@
-/* .consoles__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-} */
 .consoles {
     display: flex;
     flex-wrap: wrap;
@@ -19,11 +15,6 @@
 
 .console:not(:last-child) {
     margin-bottom: 30px;
-}
-
-.console__title {
-    text-transform: uppercase;
-    padding: 4px 10px;
 }
 
 

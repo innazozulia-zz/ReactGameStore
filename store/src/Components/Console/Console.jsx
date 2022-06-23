@@ -1,14 +1,12 @@
 import React from "react";
 
 import { useDispatch, useSelector } from "react-redux";
-
 import ConsoleCover from "../ConsoleCover/ConsoleCover";
 import Button from "../Button/Button";
-
 import {
   setConsoleInCart,
   deleteConsoleFromCart,
-} from "../../redux/slices/comsolesSlice";
+} from "../../redux/slices/consolesSlice";
 
 import "./Console.css";
 

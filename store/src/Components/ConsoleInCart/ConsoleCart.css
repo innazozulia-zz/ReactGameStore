@@ -1,0 +1,15 @@
+.console__incart {
+    position: absolute;
+    top: -4px;
+    left: 102px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 3;
+}
