@@ -12,6 +12,9 @@ function Play({ play }) {
         <PlayCover image={play.image} />
       </div>
       <div className="play__now-discription">{play.discription}</div>
+      <div>
+        <button className="btn-play">Play now</button>
+      </div>
     </div>
   );
 }

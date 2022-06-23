@@ -10,3 +10,13 @@
     font-weight: 600;
     margin: 10px 0;
 }
+
+.btn-play {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
