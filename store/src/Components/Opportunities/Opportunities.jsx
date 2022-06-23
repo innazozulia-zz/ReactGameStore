@@ -30,7 +30,7 @@ function Opportunities() {
           <span>consoles</span>
         </div>
       </Link>
-      <Link to="/">
+      <Link to="play_now">
         <div className="links play">
           <BsPlay size={25} />
           <span>play</span>

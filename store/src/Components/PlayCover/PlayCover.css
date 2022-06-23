@@ -1,0 +1,8 @@
+.play__cover {
+    height: 640px;
+    width: 640px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    cursor: pointer;
+}

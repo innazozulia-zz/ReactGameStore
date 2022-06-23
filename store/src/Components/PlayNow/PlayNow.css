@@ -1,0 +1,9 @@
+.play__wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 700px;
+}

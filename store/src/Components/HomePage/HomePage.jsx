@@ -86,6 +86,16 @@ const games = [
     description:
       "Forza Horizon 5 is a racing video game set in an open world environment based in a fictional representation of Mexico. The game has the largest map in the entire Forza Horizon series, being 50% larger than its predecessor, Forza Horizon 4, while also having the highest point in the Horizon series.",
   },
+  {
+    image: "img/control.jpeg",
+    title: "Control",
+    genres: ["Action Adventure", "Shooter"],
+    video: "https://www.youtube.com/embed/F74LLDhAhhIw",
+    price: 55,
+    id: 9,
+    description:
+      "The game revolves around the Federal Bureau of Control (FBC), a secret U.S. government agency tasked with containing and studying phenomena that violate the laws of reality.",
+  },
 ];
 
 function HomePage() {
