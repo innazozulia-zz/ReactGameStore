@@ -12,18 +12,19 @@ import { FaTicketAlt } from "react-icons/fa";
 function Opportunities() {
   return (
     <div className="opportunities__wrapper">
-      <Link to="game__pass">
-        <div className="links game__pass">
-          <FaTicketAlt size={25} />
-          <span>game pass</span>
-        </div>
-      </Link>
       <Link to="/">
         <div className="links games">
           <IoGameControllerOutline size={25} />
           <span>games</span>
         </div>
       </Link>
+      <Link to="game__pass">
+        <div className="links game__pass">
+          <FaTicketAlt size={25} />
+          <span>game pass</span>
+        </div>
+      </Link>
+
       <Link to="consoles">
         <div className="links consoles">
           <SiXbox size={25} />
