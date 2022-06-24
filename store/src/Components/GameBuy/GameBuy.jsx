@@ -30,7 +30,7 @@ function GameBuy({ game }) {
         type={isItemInCart ? "secondary" : "primary"}
         onClick={handelClick}
       >
-        {isItemInCart ? "Your game in cart" : "Buy"}
+        {isItemInCart ? "Game in cart" : "Buy"}
       </Button>
     </div>
   );

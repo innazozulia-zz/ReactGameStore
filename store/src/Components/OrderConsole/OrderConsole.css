@@ -1,0 +1,34 @@
+.order__items-title-console {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.order__item-price {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.order__cover-console {
+    width: 250px;
+    height: 320px;
+}
+
+.order__item-console {
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.order__item-delete {
+    padding: 10px;
+    cursor: pointer;
+}

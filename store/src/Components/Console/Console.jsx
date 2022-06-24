@@ -33,9 +33,8 @@ function Concole({ console }) {
       <Button
         type={isConsoleInCart ? "secondary" : "primary"}
         onClick={handelClick}
-        // className="console__buy"
       >
-        {isConsoleInCart ? "Your conlose in cart" : "Buy console"}
+        {isConsoleInCart ? "Conlose in cart" : "Buy console"}
       </Button>
     </div>
   );

@@ -13,35 +13,38 @@ function CartMenu({ items, itemsConsole, onClick }) {
   );
 
   const games =
-    items.length > 0
-      ? items.map((game) => (
-          <CartItem
-            key={game.title}
-            price={game.price}
-            title={game.title}
-            id={game.id}
-          />
-        ))
-      : "Cart is empty";
+    items.length > 0 ? (
+      items.map((game) => (
+        <CartItem
+          key={game.title}
+          price={game.price}
+          title={game.title}
+          id={game.id}
+        />
+      ))
+    ) : (
+      <h4>Select game</h4>
+    );
 
   const consoles =
-    itemsConsole.length > 0
-      ? itemsConsole.map((console) => (
-          <CartConsole
-            price={console.price}
-            title={console.title}
-            id={console.id}
-            key={console.id}
-          />
-        ))
-      : "Cart is empty";
+    itemsConsole.length > 0 ? (
+      itemsConsole.map((console) => (
+        <CartConsole
+          price={console.price}
+          title={console.title}
+          id={console.id}
+          key={console.id}
+        />
+      ))
+    ) : (
+      <h4>Select console</h4>
+    );
 
   return (
     <div className="cart__menu">
       <div className="cart__menu-games-list">
         {games}
         {consoles}
-
         {/* {items.length > 0
           ? items.map((game) => (
               <CartItem

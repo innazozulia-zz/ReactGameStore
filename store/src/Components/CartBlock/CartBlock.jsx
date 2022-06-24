@@ -2,11 +2,9 @@ import React from "react";
 
 import "./CartBlock.css";
 import { CgShoppingCart } from "react-icons/cg";
-// import { GiConsoleController } from "react-icons/gi";
 import { useSelector } from "react-redux";
 import CartMenu from "../CartMenu/CartMenu";
 import ItemsInCart from "../ItemsInCart/ItemsInCart";
-// import ConsoleInCart from "../ConsoleInCart/ConsoleInCart";
 import { useNavigate } from "react-router-dom";
 import { useCallback } from "react";
 

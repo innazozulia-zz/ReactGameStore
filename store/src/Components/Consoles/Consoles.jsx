@@ -49,7 +49,7 @@ const consoles = [
   },
   {
     id: 8,
-    title: "Xbox one Cyberpunk 2077 Limoted Edition X 1TB ",
+    title: "Xbox one Cyberpunk 2077 Limited Edition X 1TB ",
     image: "img/consoles/item-8.webp",
     price: 1250,
   },
