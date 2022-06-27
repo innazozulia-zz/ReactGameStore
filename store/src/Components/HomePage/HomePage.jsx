@@ -2,7 +2,6 @@ import React from "react";
 import "./styles.css";
 
 import GameItem from "../GameItem/GameItem";
-// import Add from "../Add/Add";
 
 const games = [
   {
@@ -101,7 +100,6 @@ const games = [
 function HomePage() {
   return (
     <div className="home__page">
-      {/* <Add /> */}
       {games.map((game) => (
         <GameItem game={game} key={game.id} />
       ))}
