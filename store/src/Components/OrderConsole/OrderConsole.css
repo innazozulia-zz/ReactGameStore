@@ -1,19 +1,28 @@
 .order__items-title-console {
-    font-size: 24px;
-    font-weight: 600;
-    padding: 10px;
+
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.order__item-price {
+.console__title {
     font-size: 24px;
     font-weight: 600;
     padding: 10px;
+}
+
+.order__item-price {
+
     display: flex;
     align-items: center;
     text-align: center;
+}
+
+.console__price {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+
 }
 
 .order__cover-console {
@@ -31,4 +40,14 @@
 .order__item-delete {
     padding: 10px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .console__price {
+        font-size: 18px;
+    }
+
+    .console__title {
+        font-size: 18px;
+    }
 }

@@ -1,4 +1,11 @@
+.consoles__wrapper {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .consoles {
+    padding: 10px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

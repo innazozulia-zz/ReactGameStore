@@ -19,10 +19,10 @@ function OrderConsole({ console }) {
         <ConsoleCover image={console.image} />
       </div>
       <div className="order__items-title-console">
-        <span>{console.title}</span>
+        <span className="console__title">{console.title}</span>
       </div>
       <div className="order__item-price">
-        <span>{console.price} $</span>
+        <span className="console__price">{console.price} $</span>
         <svg
           onClick={handleClick}
           className="order__item-delete"
