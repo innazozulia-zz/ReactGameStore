@@ -14,10 +14,18 @@
 
 .cart__price {
     padding: 0 15px;
+    font-weight: 600;
 }
 
 .close {
     cursor: pointer;
     align-items: center;
     text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .cart__title {
+        font-size: 18px;
+    }
+
 }

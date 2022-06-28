@@ -27,3 +27,10 @@
     width: 16px;
     height: 16px;
 }
+
+@media screen and (max-width: 450px) {
+    .cartconsole__title {
+        font-size: 18px;
+    }
+
+}

@@ -20,3 +20,11 @@
     justify-content: space-between;
     margin-bottom: 15px;
 }
+
+@media screen and (max-width: 450px) {
+    .cart__menu {
+        width: 290px;
+        left: -230px;
+    }
+
+}
