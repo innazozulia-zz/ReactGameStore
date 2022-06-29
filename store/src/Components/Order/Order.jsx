@@ -12,7 +12,7 @@ function Order() {
 
   const totalPrice = items.reduce((acc, game) => (acc += game.price), 0);
 
-  if (items.length < 1 || itemsConsole.length < 1) {
+  if (items.length < 1 && itemsConsole.length < 1) {
     return <h1> Your cart is empty</h1>;
   }
 

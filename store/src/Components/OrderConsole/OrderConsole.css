@@ -42,6 +42,17 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 850px) {
+    .order__item-console {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
 @media screen and (max-width: 500px) {
     .console__price {
         font-size: 18px;

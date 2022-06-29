@@ -33,3 +33,17 @@
     padding: 10px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 850px) {
+    .order__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .order__cover {
+        margin-bottom: 45px;
+    }
+}
