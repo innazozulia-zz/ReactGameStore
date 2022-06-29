@@ -26,7 +26,7 @@ function App() {
           <Route path="consoles" element={<Consoles />} />
           <Route path="play_now" element={<PlayNow />} />
           <Route path="Sing__in" element={<SingIn />} />
-          <Route path="app/:title" element={<GamePage />} />
+          <Route exact path="app/:title" element={<GamePage />} />
           <Route path="order" element={<Order />} />
         </Routes>
       </div>

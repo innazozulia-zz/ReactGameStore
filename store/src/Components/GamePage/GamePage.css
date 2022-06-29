@@ -23,3 +23,36 @@
 .game__page-makrs {
     margin-bottom: 10px;
 }
+
+.test {
+    border-top: 2px solid red;
+    border-bottom: 4px solid blue;
+}
+
+
+@media screen and (max-width: 900px) {
+    .game__page {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .game__page-right {
+        width: 50%;
+    }
+
+    .game__page-left {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .game__page-right {
+        width: 100%;
+    }
+
+    .game__page-buy {
+        margin-bottom: 200px;
+    }
+}

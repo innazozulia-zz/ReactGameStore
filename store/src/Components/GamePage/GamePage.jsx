@@ -15,7 +15,7 @@ function GamePage() {
   return (
     <div className="game__page">
       <h1 className="game__page-title">{game.title}</h1>
-
+      <GameCover image={game.image} />
       <div className="game__page-left">
         <iframe
           width="90%"
@@ -23,18 +23,23 @@ function GamePage() {
           src={game.video}
           title="YouTube Video"
           frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       </div>
       <div className="game__page-right">
-        <GameCover image={game.image} />
-        <div>
-          <p className="game__page-description">{game.description}</p>
-          <p className="game__page-makrs">
-            {game.genres.map((genre) => (
-              <GameGanre genre={genre} key={genre} />
-            ))}
-          </p>
+        <div className="test">
+          {game.price}
+          <GameCover image={game.image} />
+          {game.price}
         </div>
+        {/* <div> */}
+        <p className="game__page-description">{game.description}</p>
+        <p className="game__page-makrs">
+          {game.genres.map((genre) => (
+            <GameGanre genre={genre} key={genre} />
+          ))}
+        </p>
+        {/* </div> */}
         <div className="game__page-buy">
           <GameBuy game={game} />
         </div>

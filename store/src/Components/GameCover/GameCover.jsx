@@ -2,7 +2,7 @@ import React from "react";
 
 import "./GameCover.css";
 
-function GameCover({ image = "" }) {
+function GameCover({ image = " " }) {
   return (
     <div
       className="game__cover"
