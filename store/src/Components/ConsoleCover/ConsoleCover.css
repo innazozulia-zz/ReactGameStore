@@ -1,9 +1,11 @@
 .console__cover {
     /* max-width: 340px; */
-    max-width: 286px;
-    width: 400px;
+    /* max-width: 286px; */
+    /* width: 400px; */
     height: 306px;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    z-index: 333;
+    /* border-radius: 10px; */
 }

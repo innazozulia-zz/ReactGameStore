@@ -2,12 +2,10 @@
     text-decoration: none;
     width: 340px;
     height: 340px;
-    /* background-color: grey; */
     border-radius: 15px;
     border-bottom: 4px solid white;
     color: #fff;
     cursor: pointer;
-    /* margin: 10px; */
     position: relative;
 
 }
@@ -41,6 +39,13 @@
 .game__item-btn {
     position: absolute;
     right: 3px;
-    /* bottom: 2px; */
     bottom: -75px;
+}
+
+@media screen and (max-width: 750px) {
+    .game__item:not(:last-child) {
+
+        margin-right: 0;
+    }
+
 }

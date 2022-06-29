@@ -19,7 +19,7 @@ function Opportunities() {
         </div>
       </Link>
       <Link to="consoles">
-        <div className="links consoles">
+        <div className="links">
           <SiXbox size={25} />
           <span>consoles</span>
         </div>

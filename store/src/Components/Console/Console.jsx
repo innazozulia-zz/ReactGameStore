@@ -24,7 +24,7 @@ function Concole({ console }) {
   };
 
   return (
-    <div>
+    <div className="console__item">
       <h1 className="console__title">{console.title}</h1>
       <div>
         <ConsoleCover image={console.image} />

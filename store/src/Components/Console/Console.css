@@ -1,3 +1,9 @@
+.console__item {
+    width: 340px;
+    margin: 0 20px;
+
+}
+
 .console__title {
     font-size: 24px;
     width: 400px;
