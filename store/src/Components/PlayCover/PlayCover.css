@@ -1,7 +1,8 @@
 .play__cover {
-    height: 640px;
-    width: 640px;
-    background-size: cover;
+    min-height: 560px;
+    max-width: 640px;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
     cursor: pointer;
