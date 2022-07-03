@@ -24,11 +24,6 @@
     margin-bottom: 10px;
 }
 
-.test {
-    border-top: 2px solid red;
-    border-bottom: 4px solid blue;
-}
-
 
 @media screen and (max-width: 900px) {
     .game__page {
